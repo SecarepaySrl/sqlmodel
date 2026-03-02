@@ -39,20 +39,6 @@ This is the code we had to create the database and table, nothing new here:
 
 ////
 
-//// tab | Python 3.7+
-
-```{.python .annotate hl_lines="22" }
-{!./docs_src/tutorial/create_db_and_table/tutorial003.py[ln:1-20]!}
-
-# More code here later 👈
-
-{!./docs_src/tutorial/create_db_and_table/tutorial003.py[ln:23-24]!}
-```
-
-{!./docs_src/tutorial/create_db_and_table/annotations/en/tutorial003.md!}
-
-////
-
 Now that we can create the database and the table, we will continue from this point and add more code on the same file to create the data.
 
 ## Create Data with SQL
@@ -329,7 +315,7 @@ And it will work even if there's an exception in the code. 😎
 
 Let's give this whole file a final look. 🔍
 
-You already know all the first part creating the `Hero` model class, the **engine**, and creating the database and table.
+You already know all of the first part for creating the `Hero` model class, the **engine**, and creating the database and table.
 
 Let's focus on the new code:
 
@@ -337,16 +323,6 @@ Let's focus on the new code:
 
 ```{.python .annotate }
 {!./docs_src/tutorial/insert/tutorial003_py310.py!}
-```
-
-{!./docs_src/tutorial/insert/annotations/en/tutorial003.md!}
-
-////
-
-//// tab | Python 3.7+
-
-```{.python .annotate }
-{!./docs_src/tutorial/insert/tutorial003.py!}
 ```
 
 {!./docs_src/tutorial/insert/annotations/en/tutorial003.md!}

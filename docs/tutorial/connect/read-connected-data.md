@@ -129,7 +129,7 @@ And as we used `select` with two models, we will receive tuples of instances of 
 
 {* ./docs_src/tutorial/connect/select/tutorial001_py310.py ln[61:66] hl[65] *}
 
-For each iteration in the `for` loop we get a a tuple with an instance of the class `Hero` and an instance of the class `Team`.
+For each iteration in the `for` loop we get a tuple with an instance of the class `Hero` and an instance of the class `Team`.
 
 And in this `for` loop we assign them to the variable `hero` and the variable `team`.
 
@@ -293,7 +293,7 @@ And then you tell the database `ON` which condition it should join those two tab
 
 But by default, only the rows from both left and right that match the condition will be returned.
 
-<img alt="table relationships" src="/img/databases/relationships.svg">
+<img alt="table relationships" src="/img/databases/relationships.drawio.svg">
 
 In this example of tables above 👆, it would return all the heroes, because every hero has a `team_id`, so every hero can be joined with the `team` table:
 
@@ -318,7 +318,7 @@ But in the database that we are working with in the code above, **Spider-Boy** d
 
 So there's no way to join the **Spider-Boy** row with some row in the `team` table:
 
-<img alt="table relationships" src="/img/tutorial/relationships/select/relationships2.svg">
+<img alt="table relationships" src="/img/tutorial/relationships/select/relationships2.drawio.svg">
 
 Running the same SQL we used above, the resulting table would not include **Spider-Boy** 😱:
 
